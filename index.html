@@ -1,204 +1,404 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Your Resume</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
-  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
-  <link rel="stylesheet" href="css/progressbar.css" type="text/css" />
-  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <style>#profilepicture {
-  	border-radius: 50%;
-  }</style>
-</head>
+    <title>Apoorve Dave</title>
 
-<body>
-    <div id="container">
-      <div id="header">
-        <ul>
-          <li><a href="Resume.pdf">PDF Resume</a></li><!-- TODO: ADD link to Resume -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-          <li><a href="#Contact">Contact</a></li>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
 
-          <li><a href="https://github.com/apoorvedave">Github</a></li>
-        </ul>
-        <a href="https://www.facebook.com/apoorve.dave" class="social_contact">facebook</a>
-        <a href="https://www.linkedin.com/in/apoorvedave" class="social_contact">linkedin</a>
-      </div>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-      <div class="section sectiontop">
-        <img src="img/photo.png" id="profilepicture" width="110" height="110"
-        alt="profile_picture" />
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-        <h1>Apoorve Dave</h1>
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
 
-        <h2>graduate student, ucsd</h2>
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
 
-        <ul>
-          <li><span>E-mail:</span> <a href="#">apoorve.iitr@gmail.com</a></li>
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Apoorve Dave</h1>
+					<h3>Software Developer | apoorve.iitr@gmail.com | a1dave@ucsd.edu</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
 
-          <li><span>Phone:</span> (858) 291-2335</li>
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p> I'm a software developer and Machine Learning enthusiast with 4 years of professional experience.
+					Currently as a graduate student at UC San Diego, my main areas of interest are Artificial Intelligence and Machine Learning. I am enthralled by the current technological advancement in Machine Learning and I am passionate about learning and contributing to these fields.
+          			</p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
 
-          <li><span>Address:</span> Mail Box 40152, <br>9450 GILAMN DR, LA JOLLA,  CA  92092</li>
-        </ul>
-      </div>
 
-      <div class="section personal">
-        <div class="left">
-          <h3>About Me</h3>
-        </div>
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
-        <div class="right">
-          <p>I am a graduate student of Computer Science at UC San Diego. My main areas of interest are Artificial Intelligence and Machine Learning. I am enthralled by the current technological advancement in Machine Learning.
-          and I am passionate about learning and contributing to these fields.</p>
-        </div>
-      </div>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Master of Science, CSE</t><br/>
+						UC San Diego <br/>
+						<i>GPA 3.8</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>GRADUATING IN MARCH 2017</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Bachelor of Technology, ECE</t><br/>
+						Indian Institute of Technology Roorkee <br/>
+						<!-- <i>2 Years Course</i> -->
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MAY 2011</sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
-      <div class="section education">
-        <div class="left">
-          <h3>Education</h3>
-        </div>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Front-end Developer</t><br/>
+						Black Tie Corp. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>AUGUST 2012 - CURRENT</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Web Designer - Intern</t><br/>
+						Onassis Ltd. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2010 - JULY 2012</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
 
-        <div class="right">
-          <div class="row selection_education">
-            <h4>University of California, San Diego</h4>
 
-            <h5>MS, Computer Science | GPA 3.8</h5>
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>AWARDS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Best Web Design</t><br/>
+						Black Tie Site <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>NOVEMBER 2013</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Designer of the Year</t><br/>
+						Awwwards Site
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2013</sm></p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+	
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>Javascript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>Bootstrap</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<p>Wordpress</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="photoshop" height="130" width="130"></canvas>
+						<p>Photoshop</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="illustrator" height="130" width="130"></canvas>
+						<p>Illustrator</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 50,
+										color:"#1abc9c"
+									},
+									{
+										value : 50,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 
-            <p>TODO: Add subjects</p><a href="#">2015-Present</a>
-          </div>
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
 
-          <div class="row">
-            <h4>Indian Institute of Technology, Roorkee</h4>
 
-            <h5>BTech, Electronics and Comm. Engg.</h5>
 
-            <p>TODO: Add subjects</p><a href="#">2007-2011</a>
-          </div>
-        </div>
-      </div>
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+					<p>CANALS OF ENGLAND</p>
+				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+					<sm><i class="icon-tag"></i> design</sm></more> 
+				</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>SANKEY</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+						<sm><i class="icon-tag"></i> front-end</sm></more> 
+					</p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port03.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>WE GROW</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+						<sm><i class="icon-tag"></i> web design</sm></more> 
+					</p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+	
 
-      <div class="section education">
-        <div class="left">
-          <h3>Work Experience</h3>
-        </div>
 
-        <div class="right">
-          <div class="row selection_education">
-            <h4>University of California, San Diego</h4>
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						apoorve.iitr@gmail.com <br/>
+					</p>
+					<p><t>Adress</t><br/>
+						9450 Gilman Dr. <br/>
+						Mail 40152 <br/>
+						La Jolla, CA, 92092 <br/>
+					</p>
+					<p><t>Phone</t><br/>
+						(858) 291-2335 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="https://linkedin.com/in/apoorvedave"><i class="icon-linkedin"></i></a>
+						<a href="https://github.com/apoorvedave"><i class="icon-github"></i></a>
 
-            <h5>MS, Computer Science | GPA 3.8</h5>
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+		
+		</div>
+	</div>
+	
 
-            <p>TODO: Add subjects</p><a href="#">2015-Present</a>
-          </div>
-
-          <div class="row">
-            <h4>Indian Institute of Technology, Roorkee</h4>
-
-            <h5>BTech, Electronics and Comm. Engg.</h5>
-
-            <p>TODO: Add subjects</p><a href="#">2007-2011</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="section education">
-        <div class="left">
-          <h3>Projects</h3>
-        </div>
-
-        <div class="right">
-          <div class="row selection_education">
-            <h4>University of California, San Diego</h4>
-
-            <h5>MS, Computer Science | GPA 3.8</h5>
-
-            <p>TODO: Add subjects</p><a href="#">2015-Present</a>
-          </div>
-
-          <div class="row">
-            <h4>Indian Institute of Technology, Roorkee</h4>
-
-            <h5>BTech, Electronics and Comm. Engg.</h5>
-
-            <p>TODO: Add subjects</p><a href="#">2007-2011</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="section technical">
-        <div class="left">
-          <h3>Technikal Skills</h3>
-        </div>
-
-        <div class="right">
-          <div class="right_right">
-            <h4>Adobe Photoshop</h4>
-                <div class="progress-bar green">
-                    <span style="width: 90%"></span>
-                </div>
-                <h4>HTML/CSS</h4>
-                <div class="progress-bar orange">
-                    <span style="width: 80%"></span>
-                </div>
-                <h4>PHP</h4>
-                <div class="progress-bar orange">
-                    <span style="width: 60%"></span>
-                </div>
-                <h4>Javascript</h4>
-                <div class="progress-bar red">
-                    <span style="width: 40%"></span>
-                </div>
-          </div>
-
-          <div class="right_left">
-            <p><span>Aenean venenatis convallis diam eget sagittis. Donec iaculis felis a
-            est ultrices dapibus.</span></p>
-
-            <p>Sed cursus quam ac nibh convallis vitae faucibus quam condimentum. Nulla
-            elementum ultrices fermentum. Nulla non dolor odio, quis dictum dui. Aenean
-            venenatis convallis diam eget sagittis. Donec iaculis felis a est ultrices
-            dapibus.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="section contact">
-        <div class="left">
-          <h3 id="Contact">Contact</h3>
-
-          <p>Suspendisse a nulla vitae orci dictum facilisis.</p>
-        </div>
-
-        <div class="right">
-          <form class="form" action="#">
-            <p class="name"><input type="text" name="name" id="name" value="Name" /></p>
-
-            <p class="email"><input type="text" name="email" id="email" value="E-mail" /></p>
-
-            <p class="text">
-            <textarea name="text" rows="" cols="">Text
-</textarea></p>
-
-            <p class="submit"><input type="submit" value="Send" /></p>
-          </form>
-
-          <p class="contact_text">Sed cursus quam ac nibh convallis vitae faucibus quam
-          condimentum. Nulla elementum ultrices fermentum. Nulla non dolor odio, quis
-          dictum dui. Aenean venenatis convallis diam eget sagittis. Donec iaculis felis
-          a est ultrices dapibus.</p>
-
-          <div id="contact_icons">
-            <a href="#" class="social_contact">facebook</a> <a href="#" class=
-            "social_contact">twitter</a> <a href="#" class="social_contact">deviantArt</a> <a href="#"
-            class="social_contact">Google+</a>
-          </div>
-        </div>
-      </div>
-    </div>
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
 </html>
